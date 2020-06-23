@@ -9,7 +9,6 @@ def join_nested_strings(src)
       end
       element_index += 1
     end
-    nested_string << string_element 
     row_index += 1
   end
 end
