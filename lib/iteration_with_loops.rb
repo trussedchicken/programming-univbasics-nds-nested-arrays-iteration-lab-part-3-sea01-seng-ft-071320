@@ -1,5 +1,4 @@
 def join_nested_strings(src)
-  nested_string = []
   row_index = 0 
   while row_index < src.count do 
     element_index = 0 
@@ -13,6 +12,5 @@ def join_nested_strings(src)
     nested_string << string_element 
     row_index += 1
   end
-  nested_string
 end
 
